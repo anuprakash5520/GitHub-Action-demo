@@ -1,4 +1,4 @@
-name: run python
+name: r python
 on: push
 
 jobs:
