@@ -1,0 +1,13 @@
+name: run python
+on: push
+
+jobs:
+  hello:
+    runs-on: windows-latest
+
+    steps:
+      - name: clone repo
+        uses: actions/checkout@v3
+      - name: setup python
+        uses: actions/setup-python@v4
+      - name:  
