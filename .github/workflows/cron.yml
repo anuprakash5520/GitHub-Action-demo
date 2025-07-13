@@ -1,7 +1,7 @@
 name: cronjob
 on:
   schedule:
-    -cron: '* * * * *'
+    - cron: '* * * * *'
 jobs:
   cronjob:
     runs-on: windows-latest
