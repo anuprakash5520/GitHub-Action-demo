@@ -2,6 +2,7 @@ name: cronjob
 on:
   schedule:
     - cron: '* * * * *'
+  workflow_dispatch:  
 jobs:
   cronjob:
     runs-on: windows-latest
