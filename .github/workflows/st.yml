@@ -2,7 +2,7 @@ name: st program
 on: push
 
 jobs:
-  program st:
+  programst:
     runs-on: windows-latest
     steps:
       - name: print sted
