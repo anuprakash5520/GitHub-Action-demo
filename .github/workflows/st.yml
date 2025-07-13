@@ -1,0 +1,9 @@
+name: st program
+on: push
+
+jobs:
+  program st:
+    runs-on: windows-latest
+    steps:
+      - name: print sted
+        run:  echo "HelloWorld program started"
