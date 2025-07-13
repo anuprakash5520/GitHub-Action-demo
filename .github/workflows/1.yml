@@ -18,4 +18,4 @@ jobs:
           subject: mail title
           body: your messages here
           to: mailtoprakashdon@gmail.com
-          from: "${{ secrets.MAIL_ADDRESS }}"
+          from: "${{ secrets.EMAIL_ADDRESS }}"
